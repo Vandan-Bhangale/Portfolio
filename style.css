@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body {
+  height: 100vh;
+  background-image: url(./background.webp);
+}
+.navigation {
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name {
+  margin: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  transition: all 300ms ease-in-out;
+  color: white;
+}
+.action {
+  padding: 5px;
+  margin: 10px;
+  font-display: none;
+}
+.link {
+  margin: 10px;
+  font-size: large;
+  font-display: none;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.contact {
+  background-color: #242424;
+  padding: 10px;
+  color: white;
+  border-radius: 20px;
+}
+.name:hover {
+  background-color: rgb(148, 249, 148);
+  padding: 10px 20px;
+  border-radius: 20px;
+  transform: scale(1.1);
+  color: white;
+}
+.contact:hover {
+  background-color: dodgerblue;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.photo {
+  height: 130px;
+  border: 2px solid black;
+  border-radius: 100%;
+  margin-top: 10px;
+  box-shadow: 5px 10px 25px black;
+}
+.heading {
+  margin-top: 10px;
+  color: darkorchid;
+}
+.para {
+  width: 70%;
+  height: auto;
+  margin: 15px;
+  text-align: center;
+  color: tomato;
+}
+.para b {
+    color: greenyellow;
+}
+.icons i {
+  margin: 10px;
+  font-size: 25px;
+  color: yellow
+}
+.stack {
+  margin: 10px 50px;
+  text-align: center;
+  color: rgb(234, 200, 81);
+}
+.Icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.icon-container {
+  font-size: 70px;
+  color: yellowgreen;
+  transition: all 100ms ease-out;
+  width: 25%;
+}
+.icon-container:hover {
+  transform: scale(0.9);
+  transition: all 300ms ease-in-out;
+  opacity: 0.8;
+}
+.icon-container:hover #lang {
+  opacity: 1;
+  color: tomato;
+}
+#lang {
+  font-size: 20px;
+  opacity: 0;
+  transition: all 100ms ease-in-out;
+}
+#lang:hover {
+  color: black;
+  transform: scale(1.1);
+  margin: 5px;
+}
+.image {
+  height: 40vh;
+}
+.img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
